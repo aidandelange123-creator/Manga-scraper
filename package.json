@@ -1,0 +1,19 @@
+{
+  "name": "terminal-manga-scraper",
+  "version": "1.0.0",
+  "description": "A terminal-based manga scraper using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "inquirer": "^8.2.5",
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": ["manga", "scraper", "terminal"],
+  "author": "User",
+  "license": "MIT"
+}
