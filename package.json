@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A terminal-based manga scraper using Node.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "scrape": "node index.js"
